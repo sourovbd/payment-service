@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.Instant;
 @Entity
-@Table(name = "TRANSACTION_DETAILS")
+@Table(name = "payment")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
