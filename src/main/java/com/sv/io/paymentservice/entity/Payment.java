@@ -24,7 +24,7 @@ public class Payment {
     @Column(name = "reference_number")
     private String referenceNumber;
     @Column(name = "payment_date")
-    private Instant paymenmtDate;
+    private Instant paymentDate;
     @Column(name = "status")
     private String paymentStatus;
     @Column(name = "amount")
